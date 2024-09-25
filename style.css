@@ -57,6 +57,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display:flex
 }
 
 .image-container{
@@ -97,9 +98,11 @@ footer {
     align-items: stretch;
 }
 
-.flex-main{
+.main-content{
     display: flex;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 /* CODE YOUR FLEXBOXES HERE */
     
