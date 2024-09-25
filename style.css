@@ -80,6 +80,8 @@ footer {
     justify-content: space-evenly;
 }
 
+/* CODE YOUR FLEXBOXES HERE */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -95,7 +97,12 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: stretch;
+    /* align-items: stretch; */
+}
+
+
+.flex-main{
+    display: flex;  
 }
 
 .main-content{
@@ -104,5 +111,16 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* CODE YOUR FLEXBOXES HERE */
-    
+
+.image-container2{
+    height: 30vh;
+    width: 20vw;
+    background-color: #505FF9;
+    margin: 2rem;
+    color: #fff;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
