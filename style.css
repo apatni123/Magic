@@ -79,6 +79,9 @@ footer {
     justify-content: space-evenly;
 }
 
+/* CODE YOUR FLEXBOXES HERE */
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -98,8 +101,10 @@ footer {
 }
 
 .flex-main{
-    display: flex;
-    
+    display: flex;  
 }
-/* CODE YOUR FLEXBOXES HERE */
-    
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+}
