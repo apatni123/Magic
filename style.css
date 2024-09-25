@@ -57,6 +57,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display:flex
 }
 
 .image-container{
@@ -99,14 +100,16 @@ footer {
     /* align-items: stretch; */
 }
 
+
 .flex-main{
     display: flex;  
 }
 
 .main-content{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .image-container2{
